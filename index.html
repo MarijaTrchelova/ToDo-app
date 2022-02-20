@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <h3 style="text-align: center;">
+            Simple TO DO App
+            <div>
+                Total: <span id="total">0</span> |
+                Done: <span id="done">0</span> |
+                Left: <span id="left">0</span>
+            </div>
+        </h3>
+        <div class="todo-task" style="text-align: center;">
+            <input type="text" id="add-task" placeholder="add task">
+            <button id="add-task-btn"> ADD </button>
+        </div>
+        <ul class="todo-list" id="todo-list">
+        </ul>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
